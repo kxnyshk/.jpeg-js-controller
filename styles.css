@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #e3e2e2;
+}
+
+:root{
+    --base: #ffc600;
+    --spacing: 0em;
+    --blur: 10px;
+}
+
+.jumbotron{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 0.6em;
+    border-style: solid;
+    border-bottom-color: #233a3a;
+}
+
+.header{
+    color: #233a3a;
+    font-size: 3.5em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    filter: drop-shadow(0.35rem 0.35rem 0.3rem rgba(0, 0, 0, 0.5));
+}
+
+#JS{
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #dee100;
+}
+
+.controls{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border-width: 0.1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: #b3b3b3;
+    background-color: #b3b3b3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.label{
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+    font-family: 'Quicksand', sans-serif;
+    filter: drop-shadow(0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.3))};
+
+.inputs{
+    margin-bottom: 1em;
+}
+
+#img{
+    height: 13em;
+    width: 17em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.img-box{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
