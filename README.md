@@ -19,4 +19,4 @@ A simple fun .js script application to dynamically change properties of an image
 
 ## Hosting
  - The hosting has been done via [**Netlify.app**](https://netlify.app)
- - Host [**link**](jpeg-js-controller.netlify.app)
+ - Host [**link**](https://jpeg-js-controller.netlify.app)
